@@ -1,0 +1,166 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+/* Common area */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+
+  
+}
+p{
+  font-family: 'Roboto Slab', serif;
+}
+
+
+h1 h2 h3 h4 h5 h6{
+  font-family: 'Roboto Slab', serif;
+}
+a{
+    text-decoration: none;
+}
+
+.nav_bar .nav_icon{
+  font-size: 40px;
+}
+.nav_bar .nav_menu ul:hover{
+  color: #1abb9c;
+}
+
+/*hero part*/
+
+.hero_img .img{
+  background: url("../img/02-MARBEL.png");
+  background-size: cover;
+  height: 600px;
+  width: 100%;
+}
+.content_part{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_con_main h1{
+  font-size:40px;
+  color: #f3f3f3;
+}
+.hero_con_main h3{
+  font-size: 32px;
+  color: #a8a8a8;
+}
+.hero_con_main button{
+  height: 45px;
+  width: 140px;
+  border-radius: 5px;
+  border: none;
+  padding: 0;
+  margin: 0;
+  background-color: #3f8dbf;
+  color: #fff;
+}
+/*work part*/
+.wr_ic{
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  background-color: #9d99bf;
+  position: relative;
+}
+
+.w_icon_main{
+  display: flex;
+  justify-content: center;
+}
+.wr_ic img{
+  position: absolute;
+  top:25px;
+ 
+  left: 50%;
+  transform: translate(-50%);
+ 
+}
+.wp_ic{
+  height: 85px;
+  width: 85px;
+  border-radius: 50%;
+  background-color: #e7bf4f;
+  position: relative;
+}
+.wp_ic img{
+  position: absolute;
+  top:32px;
+ 
+  left: 50%;
+  transform: translate(-50%);
+ 
+}
+/*card part*/
+.card_part h1{
+  font-size: 18px;
+  font-weight: 700;
+}
+.card_con_main h1{
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 15px;
+}
+.card_con_main h6{
+  font-size: 13px;
+  color: #a9a9a9;
+}
+.card_con_main p{
+  font-size: 14px;
+}
+/*massage part*/
+.massage{
+  background: #efefef;
+}
+.massage h1{
+  font-size: 100px;
+  color: #dcdcdc;
+}
+.massage h2{
+  font-size: 20px;
+  color: #a1a1a1;
+}
+/*footer part*/
+.footerpart{
+  background-color: #1d1d1d;
+}
+.footer_main_con .map_ic{
+  padding-top: 0;
+  display: flex;
+  gap: 10px;
+}
+.footer_main_con .map_ic i{
+  font-size: 14px;
+  color: #a89574;
+}
+.footer_main_con .map_ic p{
+  line-height: 19px;
+  color: #bfbfbf;
+  font-size: 14px;
+}
+.footer_main_con h1{
+  color: #6c6c6c;
+  font-size: 18px;
+}
+.footer_main_con p{
+  color: #bfbfbf;
+  font-size: 14px;
+}
+/*copy*/
+.footer_hr{
+  background-color: #1d1d1d;
+}
+.ropa{
+    border-top: 2px solid #353535;
+}
+.copy p{
+  color: #c6c6c6;
+  font-size: 14px;
+}
